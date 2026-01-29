@@ -6,8 +6,8 @@
 s/(_gems" value=)"[0-9]+"/\1"1000000"/
 
 # character, pet
-s/(_c[0-9]+_unlock">)False/\1True/
-s/(_p[0-9]+_unlock">)False/\1True/
+s/(_c[0-9]+_unlock">)False/\1True/i
+s/(_p[0-9]+_unlock">)False/\1True/i
 
 # level, skin, skill
 s/(_c[0-9]+_level" value=)"[0-7]"/\1"7"/
